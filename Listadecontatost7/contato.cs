@@ -80,10 +80,10 @@ namespace Listadecontatost7
         {
             string saida = string.Empty;
             saida += String.Format("{0}, {1}", Nome, Sobrenome);
-            saida += String.Format("[0], [1]- {2]",
+            saida += String.Format("{0}, {1}- {2}",
              Telefone.Substring(0, 2),
              Telefone.Substring(2, 5),
-             Telefone.Substring(8, 4));
+             Telefone.Substring(7, 4));
 
             return saida;
              
