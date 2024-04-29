@@ -70,6 +70,7 @@
             this.listBoxcontato.Name = "listBoxcontato";
             this.listBoxcontato.Size = new System.Drawing.Size(217, 342);
             this.listBoxcontato.TabIndex = 3;
+            this.listBoxcontato.SelectedIndexChanged += new System.EventHandler(this.listBoxcontato_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -123,6 +124,7 @@
             this.Controls.Add(this.textBoxSobrenome);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
