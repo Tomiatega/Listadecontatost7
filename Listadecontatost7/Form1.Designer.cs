@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttoncontato = new System.Windows.Forms.Button();
+            this.buttonOrganizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxSobrenome
@@ -109,11 +110,22 @@
             this.buttoncontato.UseVisualStyleBackColor = true;
             this.buttoncontato.Click += new System.EventHandler(this.buttoncontato_Click);
             // 
+            // buttonOrganizar
+            // 
+            this.buttonOrganizar.Location = new System.Drawing.Point(342, 275);
+            this.buttonOrganizar.Name = "buttonOrganizar";
+            this.buttonOrganizar.Size = new System.Drawing.Size(196, 113);
+            this.buttonOrganizar.TabIndex = 8;
+            this.buttonOrganizar.Text = "Organizar\r\n\r\n";
+            this.buttonOrganizar.UseVisualStyleBackColor = true;
+            this.buttonOrganizar.Click += new System.EventHandler(this.buttonOrganizar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonOrganizar);
             this.Controls.Add(this.buttoncontato);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -140,6 +152,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttoncontato;
+        private System.Windows.Forms.Button buttonOrganizar;
     }
 }
 
